@@ -681,6 +681,10 @@ textarea:focus {
         .single-top-catagory .top-cta-content h6 {
           margin-bottom: 10px; } }
 
+.receipe-post-search, .leave-a-comment {
+  display: none;
+}
+      
 /* :: 8.0 Best Receipe Area */
 .best-receipe-area {
   position: relative;
