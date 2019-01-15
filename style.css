@@ -504,6 +504,7 @@ textarea:focus {
           color: #ffffff; }
     .header-area .delicious-main-menu .classynav .search-btn {
       color: #b6b6b6;
+      display: none;
       margin-left: 150px;
       cursor: pointer;
       -webkit-transition-duration: 500ms;
@@ -628,6 +629,10 @@ textarea:focus {
   .breakpoint-on .classynav ul li.cn-dropdown-item > a::after,
   .breakpoint-on .classynav ul li.megamenu-item > a::after {
     top: 10px; } }
+
+.megamenu-wrapper {
+  display: none !important;
+}
 
 /* :: 7.0 Top Catagory Area */
 .single-top-catagory {
@@ -777,6 +782,10 @@ textarea:focus {
     margin-bottom: 0;
     color: #9b9b9b; }
 
+.quote-subscribe-adds {
+  display: none;
+}
+
 /* :: 11.0 Quote Area */
 .quote-area {
   position: relative;
@@ -826,6 +835,7 @@ textarea:focus {
         font-size: 20px; } }
 
 .newsletter-form {
+  display: none;
   padding: 30px 15px 100px; }
   .newsletter-form form input {
     width: 100%;
@@ -1115,6 +1125,7 @@ textarea:focus {
 
 .follow-us-instagram {
   position: relative;
+  display: none;
   z-index: 1;
   border-top: 1px solid #dcdcdc; }
   .follow-us-instagram h5 {
@@ -1211,6 +1222,10 @@ textarea:focus {
   line-height: 2;
   font-size: 18px;
   text-align: center; }
+
+.contact-area {
+  display: none;
+}
 
 /* :: 18.0 Contact Area CSS */
 .map-area {
